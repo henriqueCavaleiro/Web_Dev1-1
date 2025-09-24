@@ -27,7 +27,7 @@ body {
     padding: 10px;
 }
 a:link {
-    color: red;
+    color: aqua;
 }
 
 a:visited {
@@ -50,5 +50,4 @@ a:visited {
     to {
     transform: rotate(360deg);
     }
-
 }
