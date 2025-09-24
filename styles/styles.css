@@ -1,0 +1,53 @@
+h1 {
+    color: rgb(0, 64, 213);
+}
+
+h3 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(46, 249, 225);
+    text-align: center;
+}
+
+/* div {
+    align-content: center;
+} */
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: rgb(140, 0, 255);
+}
+
+#BF {
+    color: blue;
+    font-weight: bold;
+}
+
+#fox:hover {
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
